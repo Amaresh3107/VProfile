@@ -93,11 +93,14 @@ Once provisioning is complete, access the application from your browser using th
 Nginx VM IP address: 
 http://192.168.56.21
 
+---
 
-### Manual Provisioning
+## 🛠️ Manual Provisioning
 
-This method sets up the complete infrastructure and services manually.
+This approach creates the infrastructure using Vagrant,
+and services are installed and configured manually step by step.
 
+```bash
 git clone https://github.com/<your-username>/VProfile.git
 cd VProfile/vagrant/Manual_provisioning_MacOSM1
 vagrant up
